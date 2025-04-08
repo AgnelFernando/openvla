@@ -27,6 +27,8 @@ from prismatic.vla.datasets.rlds.utils.data_utils import (
     relabel_bridge_actions,
 )
 
+def ur3_vla_dataset_transform(trajectory: Dict[str, Any]) -> Dict[str, Any]:
+    return trajectory
 
 def bridge_oxe_dataset_transform(trajectory: Dict[str, Any]) -> Dict[str, Any]:
     """
